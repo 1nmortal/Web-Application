@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a:hover{
+        color:red;
+        text-decoration:underline
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+<h3 align="center"> Users</h3>
+
+
+<a href="#my table"> Перейти к таблице </a>
+<table id="my table" border="1px">
+
+    <thead>
+    <tr>
+        <th><span style="color: #007447">Uuid</span></th>
+        <th><span style="color: #002929">Name</span></th>
+        <th><span style="color: #005885">Password</span></th>
+        <th><span style="color: #008328">Login</span></th>
+        <th><span style="color: #008585">email</span></th>
+    </tr>
+
+
+    </thead>
+    <tbody>
+    <tr>
+    <td>r3288-374372-34772</td>
+    <td>Gleb</td>
+    <td>qwerty</td>
+    <td>vasya</td>
+    <td>hufget@gmail.com</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr bgcolor="#7237172" >
+        <td colspan="5" align="center">Average</td>
+
+    </tr>
+
+
+
+
+
+
+<tfoot>
+
+
+
+
+    </tfoot>
+</table>
+<form method="post" action="/autorization">
+    <div>
+    <input type="email" name="email"placeholder="qwerty@gmail.com">
+    </div>
+    <div>
+    <input type="password" name="password" placeholder="не менее 8 символов">
+    </div>
+    <input type="submit"  value="sing in">
+
+
+
+</form>
+
+</body>
+</html>
